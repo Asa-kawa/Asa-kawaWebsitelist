@@ -1,0 +1,37 @@
+#website-list-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.closed {
+    display: none;
+}
+
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+    line-height: 1;
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+}
+
+.up {
+    transform: translate(50%, -25%) rotate(-45deg);
+}
+
+.down {
+    transform: translate(50%, -75%) rotate(135deg);
+}
+
+.content {
+    padding-left: 10px;
+    font-size: 20px;
+}
