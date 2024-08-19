@@ -5,6 +5,7 @@ const all_websites = [
     {"title": "Sample", "url": "https://asa-kawa.github.io/Asa-kawaSample/"},
     {"title": "Index", "url": "https://asa-kawa.github.io/Asa-kawaIndex/"},
     {"title": "Tutorial", "url": "https://asa-kawa.github.io/Asa-kawaTutorial/"},
+    {"title": "", "url": ""}
 ]
 
 website_list.innerHTML = getWebsiteListContent();
