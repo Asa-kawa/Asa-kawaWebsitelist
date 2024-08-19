@@ -1,5 +1,5 @@
 const website_list = document.getElementById("website-list");
-const arrow = document.getElementById("arrow");
+const arrow = document.getElementById("website-list-arrow");
 
 const all_websites = [
     {"title": "Sample", "url": "https://asa-kawa.github.io/Asa-kawaSample/"},
@@ -8,7 +8,7 @@ const all_websites = [
     {"title": "Password", "url": "https://asa-kawa.github.io/Asa-kawaPassword/"}
 ]
 
-website_list.innerHTML = getWebsiteListContent();
+initWebsiteList();
 
 document.getElementById("website-list-button").addEventListener("click", () => {
     website_list.classList.toggle("closed");
@@ -16,12 +16,9 @@ document.getElementById("website-list-button").addEventListener("click", () => {
     arrow.classList.toggle("down");
 });
 
-function getWebsiteListContent() {
-    let content = "";
-
+function initWebsiteList() {
     for(const website of all_websites) {
-        content += `<a href=${website.url} class="content">${website.title}</a><br>`;
+        html = `<a href="${website.url}" target="_blank" class="website-list-content">${website.title}</a><br>`;
+        website_list.innerHTML += html;
     }
-
-    return content;
 }

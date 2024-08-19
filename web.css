@@ -31,7 +31,7 @@
     transform: translate(50%, -75%) rotate(135deg);
 }
 
-.content {
-    padding-left: 10px;
+.website-list-content {
+    padding: 5px 0 5px 10px;
     font-size: 20px;
 }
