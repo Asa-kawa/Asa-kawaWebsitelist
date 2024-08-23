@@ -6,7 +6,6 @@ const all_websites = [
     {"title": "Index", "url": "https://asa-kawa.github.io/Asa-kawaIndex/"},
     {"title": "Tutorial", "url": "https://asa-kawa.github.io/Asa-kawaTutorial/"},
     {"title": "Password", "url": "https://asa-kawa.github.io/Asa-kawaPassword/"},
-    {"title": "TextReader", "url": "https://asa-kawa.github.io/Asa-kawaTextReader/"},
     {"title": "next-js", "url": "https://asa-kawa.github.io/asa-kawa-next-js/"},
     {"title": "text-reader-next-js", "url": "https://asa-kawa.github.io/asa-kawa-text-reader-next-js/"}
 ]
