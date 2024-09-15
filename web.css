@@ -6,6 +6,10 @@
     text-decoration: underline;
 }
 
+#W {
+    padding-left: 50px;
+}
+
 .closed {
     display: none;
 }
