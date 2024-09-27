@@ -9,7 +9,7 @@ const all_websites = [
     {"title": "next-js", "url": "https://asa-kawa.github.io/asa-kawa-next-js/"},
     {"title": "text-reader-next-js", "url": "https://asa-kawa.github.io/asa-kawa-text-reader-next-js/"},
     {"title": "form-next-js", "url": "https://asa-kawa.github.io/asa-kawa-form-next-js/"},
-    {"title": "Sample-next-js", "url": "https://asa-kawa.github.io/asa-kawa-sample-next-js/"}
+    {"title": "sample-next-js", "url": "https://asa-kawa.github.io/asa-kawa-sample-next-js/"}
 ];
 
 initWebsiteList();
